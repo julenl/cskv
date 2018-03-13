@@ -26,12 +26,12 @@ There are other good tools out there, like [shini](https://github.com/wallyhall/
    cksv /etc/ssh/sshd_config -k PasswordAuthentication -v no
 ```
 
-* Merge the content of some file into our config:
+* Merge the content of some file into our config (-e/--extra):
 ```shell
-   cskv /etc/samba/smb.conf -p extra_conf.ini
+   cskv /etc/samba/smb.conf -e extra_conf.ini
 ```
 
 * Set values from pipeline (echo/cat):
 ```shell
-  cat extra_conf.ini | cskv /etc/samba/smb.conf -p
+  cat extra_conf.ini | cskv /etc/samba/smb.conf -e
 ```
