@@ -376,7 +376,7 @@ if __name__ == "__main__":
       - Change value in a raw config file.
          cksv /etc/ssh/sshd_config -k PasswordAuthentication -v no
       - Merge the content of some file into our config:
-         cskv /etc/samba/smb.conf -p extra_conf.ini
+         cskv /etc/samba/smb.conf -e extra_conf.ini
     '''
 
     description_text = '''
