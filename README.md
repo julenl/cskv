@@ -1,6 +1,6 @@
 # CSKV
 
-CSKV, named after **C**onfig-**S**section-**K**ey-**V**alue, is a tool for
+CSKV, named after **C**onfig-**S**ection-**K**ey-**V**alue, is a tool for
 editing configuration files non interactively.
 
 There are other good tools out there, like [shini](https://github.com/wallyhall/shini), [crudini](https://github.com/pixelb/crudini) for command line environment, or the [ConfigParser](https://docs.python.org/2/library/configparser.html) module for python, but CSKV has some interesting features:
