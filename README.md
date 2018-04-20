@@ -14,6 +14,20 @@ There are other good tools out there, like [shini](https://github.com/wallyhall/
   which places the new entry with the most common indentation among the
   rest of the lines.
 
+## Installation:
+
+The easiest way to install `cskv` is with python pip. Just install it with:
+
+```shell
+    pip install cskv
+   ```
+   
+   Alternatively, download the file with:
+   
+   ```shell
+      wget -O /usr/local/bin/cskv https://raw.githubusercontent.com/julenl/cskv/master/cskv.py
+   ```
+
 ## Usage:
 * Change value in INI file, add to section if it is not already present:
 ```shell
