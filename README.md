@@ -1,6 +1,6 @@
 # CSKV
 
-CSKV, named after **C**onfig-**S**section-**K**ey-**V**alue, is a tool for
+CSKV, named after **C**onfig-**S**ection-**K**ey-**V**alue, is a tool for
 editing configuration files non interactively.
 
 There are other good tools out there, like [shini](https://github.com/wallyhall/shini), [crudini](https://github.com/pixelb/crudini) for command line environment, or the [ConfigParser](https://docs.python.org/2/library/configparser.html) module for python, but CSKV has some interesting features:
@@ -13,6 +13,20 @@ There are other good tools out there, like [shini](https://github.com/wallyhall/
 * It can handle indentation. In fact, the default is "autoindentation",
   which places the new entry with the most common indentation among the
   rest of the lines.
+
+## Installation:
+
+The easiest way to install `cskv` is with python pip. Just install it with:
+
+```shell
+    pip install cskv
+   ```
+   
+   Alternatively, download the file with:
+   
+   ```shell
+      wget -O /usr/local/bin/cskv https://raw.githubusercontent.com/julenl/cskv/master/cskv.py
+   ```
 
 ## Usage:
 * Change value in INI file, add to section if it is not already present:
