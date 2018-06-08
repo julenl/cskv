@@ -12,7 +12,7 @@ long_desc += 'quickly traced.'
 
 setup(
     name = 'cskv',
-    version = '1.0.0.dev7',
+    version = '1.0.0.dev8',
     description = 'Config parser for INI and RAW formatted files',
     long_description = long_desc,
     license = 'GNU General Public License v2 (GPLv2)',
@@ -29,4 +29,5 @@ setup(
         ],
     packages = find_packages(),
     scripts = ['bin/cskv'],
+    test_suite = 'tests',
 )
