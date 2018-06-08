@@ -1,0 +1,11 @@
+varfixed valfixed
+variable1 value1
+variable2 value2
+interactive original
+variableA  valueA
+deleteme out
+deleteme_int out
+
+# Some comment
+
+variable_novalue

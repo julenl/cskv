@@ -1,0 +1,12 @@
+varfixed = valfixed
+variable1 = value1
+variable2 = value2
+variable b = value B
+interactive = original
+variable_ns= value_ns
+deleteme = out
+deleteme_int = out
+
+# Some comment
+
+variable novalue
