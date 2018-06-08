@@ -28,7 +28,7 @@ The easiest way to install `cskv` is with python pip. Just install it with:
       wget -O /usr/local/bin/cskv https://raw.githubusercontent.com/julenl/cskv/master/cskv.py
    ```
 
-## Usage:
+## Usage (interactive/command line):
 * Change value in INI file, add to section if it is not already present:
 ```shell
    cksv /etc/samba/smb.conf -s global -k "passdb backend" -v tdbsam
@@ -49,3 +49,23 @@ The easiest way to install `cskv` is with python pip. Just install it with:
 ```shell
   cat extra_conf.ini | cskv /etc/samba/smb.conf -e
 ```
+
+## Usage (as module):
+```python
+from cskv import cskv
+opts = {}
+opts['config_file'] = 'some_path/some_file.ini'
+opts['section'] = 'some_section'
+opts['key'] = 'some_key'
+opts['value'] = 'some_value'
+
+cfile = cskv(**opts)
+cfile.process()
+```
+
+## Runing the tests
+```shell
+cd tests
+./tests.py
+```
+
